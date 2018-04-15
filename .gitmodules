@@ -154,3 +154,6 @@
 [submodule "vim/pack/nvie/start/tagbar"]
 	path = vim/pack/nvie/start/tagbar
 	url = git@github.com:majutsushi/tagbar.git
+[submodule "vim/pack/nvie/start/vim-template"]
+	path = vim/pack/nvie/start/vim-template
+	url = git@github.com:aperezdc/vim-template.git

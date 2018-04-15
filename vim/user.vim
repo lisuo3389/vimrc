@@ -19,3 +19,8 @@ let g:go_metalinter_autosave = 1
 " Tagbar {{
 nmap <F8> :TagbarToggle<CR>
 " }}
+
+" vim-vim-template {{
+let g:email = "lisuo@rongcapital.cn"
+let g:user = "Alex"
+" }}
