@@ -15,3 +15,7 @@ let g:go_highlight_generate_tags = 1
 let g:go_metalinter_enabled = ['golint', 'errcheck']
 let g:go_metalinter_autosave = 1
 " }}
+
+" Tagbar {{
+nmap <F8> :TagbarToggle<CR>
+" }}

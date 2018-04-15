@@ -151,3 +151,6 @@
 [submodule "vim/pack/nvie/start/neocomplete.vim"]
 	path = vim/pack/nvie/start/neocomplete.vim
 	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule "vim/pack/nvie/start/tagbar"]
+	path = vim/pack/nvie/start/tagbar
+	url = git@github.com:majutsushi/tagbar.git
