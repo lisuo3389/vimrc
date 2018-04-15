@@ -895,3 +895,7 @@ if executable('flow-language-server')
 endif
 
 " }}}
+
+" user.vim {{{
+source ~/.vim/user.vim
+" }}}

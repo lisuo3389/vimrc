@@ -145,3 +145,9 @@
 [submodule "vim/pack/nvie/start/vim-sort-imports"]
 	path = vim/pack/nvie/start/vim-sort-imports
 	url = https://github.com/ruanyl/vim-sort-imports
+[submodule "vim/pack/nvie/start/vim-go"]
+	path = vim/pack/nvie/start/vim-go
+	url = git@github.com:fatih/vim-go.git
+[submodule "vim/pack/nvie/start/neocomplete.vim"]
+	path = vim/pack/nvie/start/neocomplete.vim
+	url = git@github.com:Shougo/neocomplete.vim.git
