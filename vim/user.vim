@@ -14,6 +14,7 @@ let g:go_highlight_extra_types = 1
 let g:go_highlight_generate_tags = 1
 let g:go_metalinter_enabled = ['golint', 'errcheck']
 let g:go_metalinter_autosave = 1
+let g:go_template_autocreate = 0
 " }}
 
 " Tagbar {{

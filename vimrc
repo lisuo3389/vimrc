@@ -713,7 +713,7 @@ let g:Powerline_symbols = 'compatible'
 " Don't run pylint on every save
 let g:pymode = 1
 let g:pymode_python = 'python3'
-let g:pymode_breakpoint = 0
+let g:pymode_breakpoint = 1
 let g:pymode_breakpoint_bind = '<leader>b'
 let g:pymode_doc = 0
 let g:pymode_doc_bind = 'K'
@@ -734,12 +734,14 @@ let g:pymode_paths = []
 let g:pymode_quickfix_maxheight = 6
 let g:pymode_quickfix_minheight = 3
 let g:pymode_rope = 1
-let g:pymode_rope_completion = 0
 let g:pymode_rope_regenerate_on_write = 0
+let g:pymode_rope_completion = 1
+let g:pymode_rope_complete_on_dot = 1
 let g:pymode_rope_goto_definition_bind = '<C-]>'
-let g:pymode_run = 0
+let g:pymode_run = 1
 let g:pymode_run_bind = '<leader>r'
 let g:pymode_trim_whitespaces = 0
+let g:pymode_virtualenv = 1
 
 " }}}
 
@@ -875,7 +877,8 @@ let g:ale_fixers = {
 inoremap <tab> <c-n>
 inoremap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<s-tab>"
 inoremap <expr> <cr> pumvisible() ? "\<c-y>" : "\<cr>"
-set completeopt=menu,longest,preview
+"set completeopt=menu,longest,preview
+set completeopt=menu
 
 " Force refresh completion
 imap <s-space> <Plug>(asyncomplete_force_refresh)
