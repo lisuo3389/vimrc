@@ -157,3 +157,6 @@
 [submodule "vim/pack/nvie/start/neocomplete.vim"]
 	path = vim/pack/nvie/start/neocomplete.vim
 	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule "vim/pack/nvie/start/riv.vim"]
+	path = vim/pack/nvie/start/riv.vim
+	url = http://github.com/gu-fan/riv.vim.git
